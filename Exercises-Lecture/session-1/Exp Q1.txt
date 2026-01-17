@@ -1,0 +1,3 @@
+1. Explain the purpose of the main function in Dart.
+
+main() is the entry point of every Dart program. When you run a Dart application, execution starts from the main() function, and the code inside it runs first.

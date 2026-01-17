@@ -1,0 +1,12 @@
+2. Describe the difference between var, dynamic, and explicitly typed variables in Dart.
+
+1 - var
+var uses type inference: Dart determines the type from the first assigned value, and then the variable becomes that type permanently (you can’t later assign a different type).
+
+2- dynamic
+dynamic disables static type checking for that variable: it can hold values of any type at runtime (you can assign a String then later an int).
+
+3- explicitly
+Explicitly typed variables (e.g., int age = 20;, String name = 'Ali';) have a fixed type you declare. You can only assign values of that type.
+
+
