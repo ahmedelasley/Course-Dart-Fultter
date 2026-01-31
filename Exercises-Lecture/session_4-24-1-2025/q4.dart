@@ -8,18 +8,11 @@ import 'dart:io';
 
 void main() {
   int number;
-
-  print("Please Enter Random Number : ");
-  String? input = stdin.readLineSync();
-  number = int.parse(input!);
-
-  if (number == 0) {
-    print("Number is Invalid");
-  } else {
-    do {
-      print("Please Enter Random Number : ");
-      String? input = stdin.readLineSync();
-      number = int.parse(input!);
-    } while (number != 0);
-  }
+  do {
+    print("Please Enter Random Number : ");
+    number = int.parse(stdin.readLineSync()!);
+    if (number == 0) {
+      break;
+    }
+  } while (number != 0);
 }
