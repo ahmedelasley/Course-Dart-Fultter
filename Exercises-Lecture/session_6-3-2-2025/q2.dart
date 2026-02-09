@@ -3,7 +3,9 @@ Q2. Class with Attributes - Create a class Student with two attributes: name and
 class definition only (don’t create an object yet).
 */
 
-void main() {}
+void main() {
+  print("Class $Student");
+}
 
 class Student {
   String name;

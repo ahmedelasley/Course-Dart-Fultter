@@ -49,8 +49,7 @@ void main() {
 
 class Solution {
   bool containsDuplicate(List<int> nums) {
-    var seen = <int>{};
-
+    Set<int> seen = {};
     for (int x in nums) {
       if (seen.contains(x)) return true;
       seen.add(x);
